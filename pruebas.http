@@ -1,0 +1,17 @@
+### POST - crear un proyecto
+POST http://127.0.0.1:8000/api/proyectos/
+Content-Type: application/json
+
+{"nombre": "Mi primer proyecto", "descripcion": "Prueba del taller"}
+
+### GET - listar proyectos
+GET http://127.0.0.1:8000/api/proyectos/
+
+### PUT - actualizar el proyecto 1
+PUT http://127.0.0.1:8000/api/proyectos/2/
+Content-Type: application/json
+
+{"nombre": "Nombre cambiado"}
+
+### DELETE - eliminar el proyecto 1
+DELETE http://127.0.0.1:8000/api/proyectos/2/
